@@ -11,7 +11,7 @@ const Home = () => {
 
 	return (
 		<div className="contenedor-principal container">
-			<div className="light-contenedor                    ">
+			<div className="light-contenedor">
 				<div 
 				className={(color === "red" ? "light red shine" : "light red")}
 				onClick= { () => setColor("red") }>
